@@ -1,0 +1,11 @@
+{"sentences": 
+	[
+		{"index": 0, 
+			"line": 1, 
+			"parse": "(ROOT\n  (S\n    (VP (VB avoid)\n      (NP (DT this) (NN place)))\n    (. !)))", 
+			"basicDependencies": [{"dep": "ROOT", "governor": 0, "governorGloss": "ROOT", "dependent": 1, "dependentGloss": "avoid"}, {"dep": "det", "governor": 3, "governorGloss": "place", "dependent": 2, "dependentGloss": "this"}, {"dep": "dobj", "governor": 1, "governorGloss": "avoid", "dependent": 3, "dependentGloss": "place"}, {"dep": "punct", "governor": 1, "governorGloss": "avoid", "dependent": 4, "dependentGloss": "!"}],
+			 "enhancedDependencies": [{"dep": "ROOT", "governor": 0, "governorGloss": "ROOT", "dependent": 1, "dependentGloss": "avoid"}, {"dep": "det", "governor": 3, "governorGloss": "place", "dependent": 2, "dependentGloss": "this"}, {"dep": "dobj", "governor": 1, "governorGloss": "avoid", "dependent": 3, "dependentGloss": "place"}, {"dep": "punct", "governor": 1, "governorGloss": "avoid", "dependent": 4, "dependentGloss": "!"}], 
+			 "enhancedPlusPlusDependencies": [{"dep": "ROOT", "governor": 0, "governorGloss": "ROOT", "dependent": 1, "dependentGloss": "avoid"}, {"dep": "det", "governor": 3, "governorGloss": "place", "dependent": 2, "dependentGloss": "this"}, {"dep": "dobj", "governor": 1, "governorGloss": "avoid", "dependent": 3, "dependentGloss": "place"}, {"dep": "punct", "governor": 1, "governorGloss": "avoid", "dependent": 4, "dependentGloss": "!"}], 
+			 "tokens": [{"index": 1, "word": "avoid", "originalText": "avoid", "characterOffsetBegin": 0, "characterOffsetEnd": 5, "pos": "VB"}, {"index": 2, "word": "this", "originalText": "this", "characterOffsetBegin": 6, "characterOffsetEnd": 10, "pos": "DT"}, {"index": 3, "word": "place", "originalText": "place", "characterOffsetBegin": 11, "characterOffsetEnd": 16, "pos": "NN"}, {"index": 4, "word": "!", "originalText": "!", "characterOffsetBegin": 17, "characterOffsetEnd": 18, "pos": "."}]}
+			]
+}
