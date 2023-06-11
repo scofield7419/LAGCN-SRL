@@ -39,13 +39,13 @@ See the example data in [./data/demo](data%2Fdemo).
 Step 1. To train the parser, you need to include the pre-trained word embeddings in the ``embs`` folder and run the following script:
 
 ```bash
-./scripts/run_parser.sh <model> <dm|pas|psd>
+./scripts/run_parser.sh <model> <data>
 ```
 
 To evaluate the best trained model on the test set, just use the official script to compute the F1 scores:
 
 ```bash
-./scripts/eval.sh <best epoch> <dm|pas|psd> <model>
+./scripts/eval.sh <best epoch> <data> <model>
 ```
 
 
